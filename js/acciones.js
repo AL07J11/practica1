@@ -1,8 +1,5 @@
 $(document).ready(function(e){
- 	alert("El documento esta listo")
- 
- 
- 
+ 	
  	document.addEventListener("deviceready",function(){
 	 $('.btn').tap (function (){
 	 var boton= (($(this).attr('class')).split(' '))[1];
